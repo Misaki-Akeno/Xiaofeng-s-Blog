@@ -1,4 +1,9 @@
 {
+  "音频": 1,
+  "合成器": 1,
+  "react": 1,
+  "nextjs": 1,
+  "模块化": 1,
   "next-js": 6,
   "tailwind": 3,
   "guide": 5,

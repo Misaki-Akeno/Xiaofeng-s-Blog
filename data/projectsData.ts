@@ -7,12 +7,10 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Synthesizer Flow',
+    description: `SynthesizerFlow 是一个基于流程图交互的模块化音频合成器。简单来说，它让你像搭积木一样组合各类音频模块，而不再需要复杂的代码或繁琐的参数配置。`,
+    imgSrc: '/static/images/SynthesizerFlow/QQ20250406-162010.png',
+    href: 'https://synthesizer-flow.misakif.uk',
   },
   {
     title: 'The Time Machine',
