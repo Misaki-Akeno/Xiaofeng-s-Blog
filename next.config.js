@@ -68,7 +68,16 @@ module.exports = () => {
     output,
     basePath,
     reactStrictMode: true,
-    trailingSlash: false,
+    trailingSlash: true,
+    turbopack: {
+      root: process.cwd(),
+      rules: {
+        '*.svg': {
+          loaders: ['@svgr/webpack'],
+          as: '*.js',
+        },
+      },
+    },
     pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
     // Skip ESLint (including prettier/prettier) during production builds
     eslint: {
